@@ -1,0 +1,57 @@
+html, body { 
+    height: 100%;
+    margin: 0px; 
+}
+
+.row {
+    width: 100vw;
+    height: 33vh;
+}
+
+.color {
+    background-color: red;
+    opacity: 0.2;
+    width: 33vw;
+    height: 33vh;
+    display: inline-block;
+}
+
+.photo {
+    width: 33vw;
+    height: 33vh;
+    display: inline-block;
+    opacity: 0.2;
+}
+
+.photo:hover {
+    opacity: 1;
+}
+
+.color:hover {
+    background-color: firebrick;
+    opacity: 1;
+}
+
+#first {
+  background-image: url(../img/apples-food-fruits-38240.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#second {
+  background-image: url(../img/background-coffee-beans-red-699373.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#third {
+  background-image: url(../img/berries-cherries-delicious-52991.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fourth {
+  background-image: url(../img/close-up-color-confection-992816.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
